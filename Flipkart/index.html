@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" width="device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--1. Nav Bar -->
+    <header class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <a class="navbar-brand" href="#"
+                ><img src="images/logo.svg" alt="Logo"
+              /></a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col col-lg-8 py-3" id="search">
+                  <div class="py-2" id="sea">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input
+                      type="text"
+                      placeholder="Search for Products, Brands and More"
+                    />
+                  </div>
+                </div>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item pt-3">
+                    <a class="nav-link active" href="#"
+                      ><p id="br">
+                        <i class="fa-regular fa-circle-user"></i>Login
+                      </p></a
+                    >
+                  </li>
+                  <li class="nav-item pt-3">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      ><p><i class="fa-solid fa-cart-shopping"></i>Cart</p></a
+                    >
+                  </li>
+                  <li class="nav-item pt-3">
+                    <a class="nav-link active" href="#"
+                      ><p id="br">
+                        <i class="fa-solid fa-store"></i>Become a Seller
+                      </p></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- <header class="container-fluid">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col p-2 pt-3" id="logo">
+                    <img src="images/logo.svg" alt="logo">
+                </div>
+                <div class="col col-lg-6 py-3" id="search">
+                  <div class="py-2" id="sea">
+                   <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for Products, Brands and More">
+                  </div>
+                </div>
+                <div class="col py-3" id="login">
+                    <a href="#" class="py-2 px-3">
+                    <i class="fa-regular fa-circle-user"></i>
+                    Login
+                    </a>
+                </div>
+                <div class="col py-3" id="cart">
+                    <p id="br"><i class="fa-solid fa-cart-shopping"></i>Cart</p>
+                </div>
+                <div class="col col-lg-2 py-3" id="order">
+                    <p id="br"><i class="fa-solid fa-store"></i>Become a Seller</p>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!--2. Best Deals -->
+    <section class="container-fluid my-2">
+      <div class="container text-center" id="white">
+        <h2>Best Deals</h2>
+        <div class="row">
+          <div class="col">
+            <img src="images/b1.webp" alt="Bud" />
+            <p>Top Offers</p>
+          </div>
+          <div class="col">
+            <img src="images/b2.webp" alt="Bud" />
+            <p>Mobile & Tablets</p>
+          </div>
+          <div class="col">
+            <img src="images/b3.webp" alt="Bud" />
+            <p>TV & Appliances</p>
+          </div>
+          <div class="col">
+            <img src="images/b4.webp" alt="Bud" />
+            <p>Electronics</p>
+          </div>
+          <div class="col">
+            <img src="images/b5.webp" alt="Bud" />
+            <p>Fashions</p>
+          </div>
+          <div class="col">
+            <img src="images/grocery.webp" alt="Bud" />
+            <p>Grocery</p>
+          </div>
+          <div class="col">
+            <img src="images/mobiles.webp" alt="Bud" />
+            <p>Mobiles</p>
+          </div>
+          <div class="col">
+            <img src="images/air.webp" alt="Bud" />
+            <p>Fligth Bookings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--3. Slider -->
+    <section class="container-fluid">
+      <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#slide"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slide"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slide"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#slide"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/sec-2.webp" class="d-block w-100" alt="web" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/sec-3.webp" class="d-block w-100" alt="web" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/sec-4.webp" class="d-block w-100" alt="web" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/sec-5.webp" class="d-block w-100" alt="web" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- 4.Electronics -->
+    <section class="container-fluid my-3">
+      <div class="container text-center" id="white">
+        <div><h2>Best Electronics</h2></div>
+        <div class="row row-cols-2 row-cols-lg-4 g-lg-3">
+          <div class="col">
+            <img class="img-fluid" src="images/electronics.jpg" alt="" />
+            <p>Electronics</p>
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/e2.jpg" alt="" />
+            <p>Electronics</p>
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/e3.jpg" alt="" />
+            <p>Electronics</p>
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/e4.jpg" alt="" />
+            <p>Electronics</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 5. Deals -->
+    <section class="container-fluid my-2">
+      <div class="container text-center" id="white">
+        <div class="row row-cols-2 row-cols-lg-3 g-lg-3">
+          <div class="col">
+            <img class="img-fluid" src="images/h1.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h2.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h3.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h4.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h5.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h6.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h7.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h8.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h9.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h10.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h11.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/h12.webp" alt="" />
+          </div>
+
+          <div class="col">
+            <img class="img-fluid" src="images/ft-1.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-2.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-3.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-4.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-5.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-6.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-7.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-8.webp" alt="" />
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="images/ft-9.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid py-5">
+      <div class="container" id="para">
+        <h5>Top Stories:Brad Directory</h5>
+        <p>
+          MOST SEARCHED FOR ON FLIPKART (Phone 16 | Phone 10
+          PlusPhone10Pro/Phone10 Pro Max REDME 14 Pro 5G | Whoop Band OPPO Find
+          XB | Flipkart Minutes | Flipkart Exchange | Flipkart Reset Nothing
+          Phone Za Plus Sarees | CM by Nothing Phone 1 Pocket Bazaar Xiaomi 14
+          CIVIf Note 40 Pro 50 Phone 1540.50 15 Plus vivo X Fold Pro | Motorola
+          g04s | Vivo x 100 | OnePlus Nord CE 3 Lite 50 | Spoyl Store SAMSUNG
+          FPS SAMSUNG Folds Flipkart Avio Rank Super Este Credit card 50 Mobile
+          Phones | Primetiosk Laptops | Moto Edge 40 Grievance Redressal OPPO
+          Remo? Pro 5G | Help Centre Track Orders | Manage Orders Return Orders
+          | Gift Cards Store Flipkart Axis Bank Credit Card Pay Later MOBILES
+          Motona 64 50 OPPO Rano 12 Motorota Edge 50 Fusion REDMI 12:50 REDMIN
+          1350 | Resine 12-50 | POCO CSS | Motoria 084 | Realme CS3 | Infinix
+          Smart 8 Samsung Galaxy 1523 50 | Samsung Galaxy S21 FE SG Qualcomm V30
+          | Samsung Galaxy 534 50 | Samsung Galaxy 524 50 | IPhone 12 6408 |
+          Phone 12 Pro 52081212809 | Vivo Y7S | SAMSUNG Galaxy S21 FE 50 |
+          Infinis HOT 30| Realme 10 Pro 50 | MOTOROLA 062 50 | Nothing Phene
+          REDMI Note 12 Pr 50SMART 7 Vivo Y12 | Oppo A12 | Motorola 5g Phone |
+          Reame Simone | Acole Sig Phone | toyo 59 Phones | Oneplus 5g Phones |
+          Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 Oppo A31 Samsung A71
+          | Samsung A51 | Samsung A3140 Mile | Nokia Matte Samsung Mobile |
+          iphone | Oppo Mobile Vis Mobile CAMERA GoPro Action Camera | Neon
+          Camera Carven Camera Sony Camera Canon DSLR) Nikon DSLR LAPTOPS Asus
+          ROG Ally MacBook Pro M2 Premium Laptop ASUS ROG SCAR (3) Cire en ASUS
+          ROG Zephyrus M18 (2033) Core 13th Gen | ASUS Zenbook 14 OLED (2022) |
+          Realme Book Prime Core i5 11th Ben | Microsoft Surface Go Pantun 12800
+          Apple Laptops | Acer Laptops | Lenovo Laptops Def Lamps | Asus Laptops
+          HP LasGaming 2 in 1 Laptops Laptops | Dell latest laptops 2022 HP
+          latest laptops 2022 Infinis INBook Y1 Plus SAMSUNG Galaxy Boca 1210
+          Gen Intel Core Laptops TVS Nokle TV (Panasonic TV | Themade TV | MXP
+          Reame TV MTV TV | LG TV TV Sony TV Samsung TV Android Television |
+          Maicon Tv Mi TV LARGE APPLIANCES Television Washing Machines |
+          Refrigerators | Ar Conditioners strugate/Travel Katthes Induction
+          Cooktops / Inverters/stabilizer Irons/iron Box / Mixer Grinder Juicer
+          | Wet Ormiterx) Chimneys | Microwave Ovens Vacuum Cleaners Water
+          Purifier fan CLOTHING | Green testellenenga | Tapas | Apron for
+          Oncturs Shoes SungHalf saree Douse designs | Designer blouses | Blouse
+          designs Shirts | Cotton saree blouse designs | Tshirts | Jeans |
+          Dresses | One pieces | Onom wending sher war Designer Satwar Sus | Bra
+          Cotton sample segnaresarse use design Stylish test design Track Pant
+          Blouse neck designs | Kurtas Party Dresses Palazzo Dults Anarkali
+          Downs Cut out ifress Salwar Surs Kunis Designer Sarees Leggings Shorts
+          Georgette Sarees Enerь магния | Пое Вack design | Jodhpur pants
+          FOOTWEAR Adidas Shoes | Beeck Shoes | Ne toes Puma Shoes Band Shoes
+          Sachershoineakers Wumens Boots Sports Shoes | Loafers Sandals | Lotta
+          Sports Shoes | Casual Shoes / Womens Skechers Anca Sporта вовк |
+          Formal Shoes ficheal Shoes GROCERIES Phonelle Givery Voucher | Hand
+          Wash Cases Fin Tunet Cleaner/Harpsicle Cleaner Detlo Sos Mustard Oil
+          Biscuits Cheese Patanjal Atta | Furtune Aurvaart Alla Tea BEST SELLING
+          ON FLIPKART Hanes/Best Gas Geyser | Костин Сеулан | PowerBest Cooter |
+          Bags Hitachi Refrigerator 3 Door | Books | Toys / Candles | Helmets |
+          War Clocks | Baby Food Cheabes Cymes Calcuttacker Pack chesatsning Got
+          Cassie Pad Mrs Handbags conext W2 Smartwatch | Mivi DuoPods 350/
+          Speaker Cleallee FURNITURE Fe | Sofas Beds Dong Warifes Mattresses
+          Chars Shelves Bags Office Chairs Computer Table Office Tattes Red Sofa
+          Watafit Bads Wine Sofa Want Mattress Oren ack Sofa (Row Sols BOMH
+          Shane Way | Homespatлу | Сискет | Супка |
+        </p>
+
+        <h5>Flipkart: The One-stop Shopping Destination</h5>
+        <p>
+          E-commerce is revolutionizing the way we all shop in India. Why do you
+          want to hop from one store to another in search of the latest phone
+          when you can find it on the Intemet in a single click? Not only
+          bespring car pomaly ktagine, from trending electronics like laptops,
+          tablets, smartphones, and mobile accessories to in-vogue fashion
+          staples like shoes, clothing and ifestyle accessories: from inoderm
+          future like sets, drogates and westco your ife easy like washing
+          machines, TVs, ACs, mixer grinder juicers and other time-saving
+          kitchen and small appliances, from home furnishings like cushion
+          covers, mattresses and bedsheets to toys and mor hame it, and you can
+          stay assured about finding them all here. For those of you with
+          erratic working hours, Flipkart is your best bet. Shop in your Pis, at
+          night or in the wee hours of the morning. The e-Commerce ever sh
+          omment af coние п What's murk, with our year-round shopping festivals
+          and events, our prices are irresistible. We're sure you'll find
+          yourself picking up more than what you had it mind if you are
+          wondering why wh available to you, well, the below will answer your
+          question
+        </p>
+
+        <h5>Flipkart Plus</h5>
+        <p>
+          A word of miss possibilities awaits you - Flipkart Plus was
+          kickstarted as a loyalty reward programme for all its regular
+          customers at zero subscription fee, All you need 500 spinto be the
+          service proe, Plus members earms 4 supercons & non-plus members eam 2
+          supercoins. Free delivery, early access during sales and shopping
+          festivals, exchange offers and priority costumersnice tele when you
+          shop more What's more, you can even use the Flipkart supercoins for a
+          number of exciting services, like Aars Zomato Duld membership An
+          ammual Honstar Premiuth membership the Gaara pe subscription Rupees
+          350 metadont on flights on largo Checkout
+          оприлwww.fipkart.com/puslat-offers for the entire list, Terms and
+          conditions apply
+        </p>
+
+        <h5>No Cost EMI</h5>
+        <p>
+          In an attempt to make high-end products accessite to our Cost Man you
+          to shop with us under EM, without shelling out any processing fee.
+          Applicable on select mobiles, laptops, large and small appliances,
+          furniture, electronics and watches, you can now shop wittelut burning
+          a how in your pocout if you're bem eyenge product for a long time,
+          chances are a may be up for a no cost EML Take a look ASAPt Terms and
+          conditions apply
+        </p>
+
+        <h5>EMI on Debit Cards</h5>
+        <p>
+          Did you know debit cant hotders account for 70.38 crore in the
+          country, whether олу 2.14 сесout ceders After eating EM on Credit
+          Cante, in another attempt to make online shopping accessible to
+          everyone, Flipkart introduces EMI on D Cards, empowering you to shop
+          confidently with us without having to мету Terme and conditions apply.
+          monthly cash fow At present, we have partnered
+        </p>
+
+        <h5>Mobile Exchange Offers</h5>
+        <p>
+          Get an extant decount on the phone that you have been on Excha
+          wogatile for an exchange offer, you will see the Buy with Exchange the
+          value of your old phone, provided it is in a working condition without
+          damage to the screen. it a phone t for an exchange wherever possitle
+          Terms and conditions apply What Can You Buy From Flipkart? Mobile
+          Phones Puget phones to stale of the art shapes, we have mama, we take
+          of the sentits how from Flawarts Complete Me Ptayou will nevих ярих
+          ndtere tches, вой черкасетents the Flipkart Congata Me power-packed
+          batteries, blazing-fast processors, beautification apps, nigh-tech
+          selfie cameras or just tunge me a few. Rest assured, you're buying
+          from only the most reliable names in the market, What's post purchase
+          sulutions, starting at as low as Rupees 20 only Broken screens liquid
+          damage phone, and with door-to-dour services Electronic Devices and
+          Accessories MERE to Get Our Back To Culege Store segregates size and
+          many utter citeris for personalized results in a fish. All you
+          students out there, vifused al mattitasking with recommendations firan
+          tup brands and industry experts, facilitating a song
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid py-5" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul>
+                <a href="#"><li id="hed">ABOUT</li></a>
+                <a href="#"><li>Contact Us</li></a>
+                <a href="#"><li>About Us</li></a>
+                <a href="#"><li>Careers</li></a>
+                <a href="#"><li>Flipkart Stories</li></a>
+                <a href="#"><li>Press</li></a>
+                <a href="#"><li>Corporate Information</li></a>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <a href="#"><li id="hed">GROUP COMPANIES</li></a>
+                <a href="#"><li>Myntra</li></a>
+                <a href="#"><li>Cleartrip</li></a>
+                <a href="#"><li>Shopsy</li></a>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <a href="#"><li id="hed">HELP</li></a>
+                <a href="#"><li>Payments</li></a>
+                <a href="#"><li>Shipping</li></a>
+                <a href="#"><li>Cancellation & Retuns</li></a>
+                <a href="#"><li>FAQ</li></a>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <a href="#"><li id="hed">CONSUMER POLICY</li></a>
+                <a href="#"><li>Cancellation & Returns</li></a>
+                <a href="#"><li>Terms Of Use</li></a>
+                <a href="#"><li>Security</li></a>
+                <a href="#"><li>Privacy</li></a>
+                <a href="#"><li>Sitemap</li></a>
+                <a href="#"><li>Grievance Redressal</li></a>
+                <a href="#"><li>EPR Compliance</li></a>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <a href="#"><li id="hed">Mail Us:</li></a>
+                <a href="#"><li>Flipkart Internet Private Limited,</li></a>
+                <a href="#"><li>Buildings Alyssa, Begonia $</li></a>
+                <a href="#"><li>Clove Embassy Tech Village,</li></a>
+                <a href="#"
+                  ><li>Outer Ring Road,Devarabeesanahalli Village,</li></a
+                >
+                <a href="#"><li>Benaluru, 560103,</li></a>
+                <a href="#"><li>Karnataka, India</li></a>
+                <a href="#"><li id="hed">Social:</li></a>
+                <a href="#" id="hed"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" id="hed"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" id="hed"><i class="fa-brands fa-youtube"></i></a>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <a href="#"><li id="hed">Registered Office Address:</li></a>
+                <a href="#"><li>Flipkart Internet Private Limited,</li></a>
+                <a href="#"
+                  ><li>
+                    Buildings Alyssa, Begonia & Clove Embassy Tech Village,
+                  </li></a
+                >
+                <a href="#"><li>Outer Ring Road,</li></a>
+                <a href="#"><li>Devarabeesanahalli Village,</li></a>
+                <a href="#"><li>Bengaluru, 560103,</li></a>
+                <a href="#"><li>Karnataka, India</li></a>
+                <a href="#"><li>CIN: U51109KA2012PTC066107</li></a>
+                <a href="#"><li>Telephone: 044-45614700/044-67415800</li></a>
+              </ul>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <div class="col">
+              <p id="hr"><i class="fa-solid fa-store"></i>Become a Seller</p>
+            </div>
+            <div class="col">
+              <p id="hr"><i class="fa-solid fa-star"></i>Advertise</p>
+            </div>
+            <div class="col">
+              <p id="hr"><i class="fa-solid fa-gift"></i>Gift Cards</p>
+            </div>
+            <div class="col">
+              <p id="hr">
+                <i class="fa-regular fa-circle-question"></i>Help Center
+              </p>
+            </div>
+            <div class="col">
+              <p id="hr">&#169; 2007-2025 Flipkart.com</p>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col"><i class="fa-brands fa-cc-visa"></i></div>
+                <div class="col"><i class="fa-brands fa-cc-discover"></i></div>
+                <div class="col"><i class="fa-brands fa-cc-paypal"></i></div>
+                <div class="col">
+                  <i class="fa-solid fa-money-check-dollar"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+   
+  </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+  crossorigin="anonymous"
+></script>
+</html>
