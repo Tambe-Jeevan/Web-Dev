@@ -3,7 +3,7 @@
 
 ## 🌐 Web Development
 
-<p>I am passionate about **Web Development**, a dynamic and constantly evolving field that bridges creativity and technology to build impactful user experiences. My expertise lies in designing and developing responsive, interactive, and visually appealing websites that adapt seamlessly to all devices. 
+<p>I am passionate about Web Development, a dynamic and constantly evolving field that bridges creativity and technology to build impactful user experiences. My expertise lies in designing and developing responsive, interactive, and visually appealing websites that adapt seamlessly to all devices. 
 
 ### Skills:
 - **Frontend Development:** Proficient in **HTML**, **CSS**, **JavaScript**, and modern frameworks like **React.js** and **Bootstrap** to create intuitive and engaging user interfaces.
