@@ -1,0 +1,41 @@
+.img img{
+    width: 156px;
+    height: 36px;
+}
+.sec-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.sec-3 nav{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sec-3 .btn{
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+}
+.sec-3 button{
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+}
+.bold{
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.sec-4{
+    background-color: rgb(245, 240, 240);
+}
+.sec-4 col{
+    background-color: white;
+}
