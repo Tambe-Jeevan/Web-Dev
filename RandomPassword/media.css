@@ -1,0 +1,8 @@
+@media only screen and (max-width: 1000px) {
+    .container .row {
+        display: block;
+        justify-content:last baseline;
+        align-items:center;
+        margin: 10%;
+      }
+  }
