@@ -16,7 +16,7 @@
 <li>JavaScript: Logic for generating random passwords</li>
 </ul>
 
-<p>How It Works
+<p>How It Works :
 User selects password length and character options
 Clicks the "Generate Password" button
 The app generates a secure password
