@@ -24,3 +24,5 @@
 </ul>
 
 <h4>This project is perfect for anyone who wants a quick and easy way to generate QR codes for links, business cards, or other digital content! 🚀</h4>
+
+![Screenshot 2025-01-30 020942](https://github.com/user-attachments/assets/1aac3540-c474-44b8-9006-f7b464bb85e9)
