@@ -7,7 +7,6 @@
 <li>✅ Smooth user interaction with JavaScript Event Listeners</li>
 <li>✅ FontAwesome icons for better UI/UX</li>
 <li>✅ Responsive layout for all devices</li>
-<li>✅ Built with vanilla JavaScript (no external libraries required)</li>
 </ul>
 <ul>Technologies Used
 <li>🔹 HTML – Structure of the webpage</li>
