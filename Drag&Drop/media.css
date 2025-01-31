@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+    .container .row{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 3%;
+    }
+    .container .row #left, #right{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}
