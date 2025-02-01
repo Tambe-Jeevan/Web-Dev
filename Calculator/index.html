@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <form>
+        <div class="cal">
+          <input type="button" id="ans" name="cal">
+        </div>
+        <div class="row">
+          <input type="button" class="col color"  value="AC" onclick="cal.value ='' ">
+          <input type="button" class="col color"  value="DE" onclick="cal.value = cal.value.toString().slice(0, -1) ">
+          <input type="button" class="col color"  value="+/-" onclick="cal.value = `-(${cal.value})`">
+          <input type="button" class="col color"  value="/" onclick="cal.value += '/' ">
+        </div>
+        <div class="row">
+          <input type="button" class="col"  value="7" onclick="cal.value += '7' ">
+          <input type="button" class="col"  value="8" onclick="cal.value += '8' ">
+          <input type="button" class="col"  value="9" onclick="cal.value += '9' ">
+          <input type="button" class="col color"  value="*" onclick="cal.value += '*' ">
+        </div>
+        <div class="row">
+          <input type="button" class="col"  value="4" onclick="cal.value += '4' ">
+          <input type="button" class="col"  value="5" onclick="cal.value += '5' ">
+          <input type="button" class="col"  value="6" onclick="cal.value += '6' ">
+          <input type="button" class="col color"  value="-" onclick="cal.value += '-' ">
+        </div>
+        <div class="row">
+          <input type="button" class="col"  value="1" onclick="cal.value += '1' ">
+          <input type="button" class="col"  value="2" onclick="cal.value += '2' ">
+          <input type="button" class="col"  value="3" onclick="cal.value += '3' ">
+          <input type="button" class="col color"  value="+" onclick="cal.value += '+' ">
+        </div>
+        <div class="row">
+          <input type="button" class="col"  value="%" onclick="cal.value += '%' ">
+          <input type="button" class="col"  value="0" onclick="cal.value += '0' ">
+          <input type="button" class="col"  value="." onclick="cal.value += '.' ">
+          <input type="button" class="col color"  value="=" onclick="cal.value = eval(cal.value)">
+        </div>
+    </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
