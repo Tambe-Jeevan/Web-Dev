@@ -1,5 +1,5 @@
 ## Calculator
-<h1>Calculator Web Development Project</h1>
+<h2>Calculator Web Development Project</h2>
 <p>This project is a simple yet functional calculator built using HTML, CSS, and JavaScript. It provides users with a clean and interactive interface to perform basic arithmetic operations efficiently.</p>
 
 <ul>Features
