@@ -1,5 +1,5 @@
 ## Watch
-<h1>Real-Time Display Watch - Web Development Project</h1>
+<h2>Real-Time Display Watch - Web Development Project</h2>
 <p>This project is a real-time digital clock built using HTML, CSS, and JavaScript. It dynamically updates the time every second, providing an accurate and visually appealing clock display.</p>
 
 <ul>Features
