@@ -1,5 +1,5 @@
 # Portfolio
-<h1>Personal Portfolio - Web Development Project</h1>
+<h2>Personal Portfolio - Web Development Project</h2>
 <p>This project is a personal portfolio website designed using HTML, CSS, and JavaScript to showcase skills, projects, and achievements in a professional and visually appealing manner.</p>
 
 <ul>Features
