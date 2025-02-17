@@ -1,5 +1,5 @@
 ## Generate QR Code
-<h1>QR Code Generator - Web Development Project</h1>
+<h2>QR Code Generator - Web Development Project</h2>
 <p>This project is a QR Code Generator built using HTML, CSS, and JavaScript. It allows users to generate custom QR codes by entering text or a URL, which can be scanned using any QR code reader.</p>
 
 <ul>✨ Features
