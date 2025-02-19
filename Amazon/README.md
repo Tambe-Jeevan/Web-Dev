@@ -1,5 +1,5 @@
 ## Amazon Clone
-<h2>Amazon Clone - Web Development Project</h2>
+<h1>Amazon Clone - Web Development Project</h1>
 <p>This project is an Amazon-inspired eCommerce website built using HTML, CSS, and Bootstrap. It replicates the layout and functionality of Amazon’s homepage, providing a responsive and user-friendly shopping experience.</p>
 
 <ul>Features
