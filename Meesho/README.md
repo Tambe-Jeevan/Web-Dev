@@ -1,5 +1,5 @@
 ## Meesho Clone
-<h1>Meesho Clone - Web Development Project</h1>
+<h2>Meesho Clone - Web Development Project</h2>
 <p>This project is a Meesho-inspired eCommerce website built using HTML, CSS, and Bootstrap. It replicates the look and functionality of Meesho’s homepage, providing a responsive and user-friendly shopping experience.</p>
 
 <ul>Features
