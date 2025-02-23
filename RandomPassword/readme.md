@@ -1,5 +1,5 @@
 ## Password Generator
-<h1>Random Password Generator - Web Development Project</h1>
+<h2>Random Password Generator - Web Development Project</h2>
 <p>This project is a Random Password Generator built using HTML, CSS, and JavaScript. It allows users to generate secure and customizable passwords with different lengths and character combinations.</p>
 
 <ul>Features
