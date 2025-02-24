@@ -25,7 +25,7 @@
 <li>5️⃣ The footer includes customer service and contact links</li>
 </ul>
 
-<p>This project is perfect for learning Bootstrap and responsive web design and is a valuable addition to any web developer’s portfolio! 🚀</p>
+<pre>This project is perfect for learning Bootstrap and responsive web design and is a valuable addition to any web developer’s portfolio! 🚀</pre>
 
 ![Screenshot 2025-01-13 210838](https://github.com/user-attachments/assets/bea25620-8035-4818-8ab9-6195ccb653d7)
 ![Screenshot 2025-01-13 210915](https://github.com/user-attachments/assets/b2027096-c510-4085-8b27-eea697f22064)
