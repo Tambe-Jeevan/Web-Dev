@@ -14,8 +14,9 @@ header{
     background-color: #e1f3f9;
 }
 .row #search #sea input{
-    width: 96%;
+    width: 90%;
     border: none;
+    border-color: #e1f3f9;
     color: black;
     background-color: #e1f3f9;
 }
