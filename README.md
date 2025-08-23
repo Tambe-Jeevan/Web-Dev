@@ -1,11 +1,8 @@
 # Web-Dev
-
-
-<h1>🌐 Web Development</h1> 
-
+# 🌐 Web Development
 <p>I am passionate about Web Development, a dynamic and constantly evolving field that bridges creativity and technology to build impactful user experiences. My expertise lies in designing and developing responsive, interactive, and visually appealing websites that adapt seamlessly to all devices. 
 
-### Skills:
+### Skills :
 - **Frontend Development:** Proficient in **HTML**, **CSS**, **JavaScript**, and modern frameworks like **React.js** and **Bootstrap** to create intuitive and engaging user interfaces.
 - **Backend Development:** Skilled in building robust server-side logic using **Node.js**, **Express.js**, and connecting to databases like **MySQL** and **MongoDB**.
 - **Responsive Design:** Crafting mobile-friendly, pixel-perfect designs that enhance accessibility and user satisfaction.
